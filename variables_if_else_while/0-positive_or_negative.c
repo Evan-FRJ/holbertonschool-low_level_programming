@@ -2,7 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * Description: This program generates a random number and checks if it is
+ * positive, negative, or zero, then prints the result.
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int n;
@@ -12,17 +20,17 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf(n, "is positive");
+		printf("%d is positive", n);
 	}
 
 	else if (n < 0)
 	{
-		printf(n, "is negative");
+		printf("%d is negative", n);
 	}
 
 	else
 	{
-		printf(n, "is 0");
+		printf("%d is 0", n);
 	}
 	return (0);
 }
