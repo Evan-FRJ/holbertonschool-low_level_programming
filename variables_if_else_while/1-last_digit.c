@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
-* Main - Entry point
+* Main - Prints a text according number
 * Return: Always 0 (Success)
 **/
 int main(void)
