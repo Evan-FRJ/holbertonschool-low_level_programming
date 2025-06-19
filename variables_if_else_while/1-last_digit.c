@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-* Main - Prints a text according number
-* Return: Always 0 (Success)
-**/
+/**
+* main - Prints a text according number
+* Return: Always (Success)
+*/
 int main(void)
 {
 	int n, y;
