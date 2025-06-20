@@ -17,9 +17,9 @@ int main(void)
 		printf("%d", number);
 	}
 
-	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
+	for (letter = 'a'; letter <= 'f'; letter++)
 	{
-		putchar(alphabet);
+		putchar(letter);
 	}
 	putchar('\n');
 	return (0);
