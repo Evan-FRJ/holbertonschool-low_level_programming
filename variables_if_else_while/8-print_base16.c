@@ -16,7 +16,7 @@ int main(void)
 	{
 		printf("%d", number);
 	}
-	printf("\n");
+
 	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
 	{
 		putchar(alphabet);
