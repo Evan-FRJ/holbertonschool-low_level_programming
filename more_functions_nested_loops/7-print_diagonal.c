@@ -6,8 +6,7 @@
  * @n: parameter for function.
  * Return: Always 0.
  */
- 
-void print_diagonal(int n)
+ void print_diagonal(int n)
 {
 	int x;
 	int y;
