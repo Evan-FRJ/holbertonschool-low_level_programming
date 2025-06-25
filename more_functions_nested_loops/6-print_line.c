@@ -4,19 +4,14 @@
  * @n: is the integer for the paramaters of the function
  * Return: Always 0 (Success)
  */
+
 void print_line(int n)
 {
-	int a = 0;
+	int x;
 
-	if (n > 0)
+	for (x = 1; x <= n; x++)
 	{
-		while (a <= n)
-		{
-			_putchar('_');
-			a++;
-		}
-	 _putchar('\n');
+		_putchar('_');
 	}
-	else
 	_putchar('\n');
 }
