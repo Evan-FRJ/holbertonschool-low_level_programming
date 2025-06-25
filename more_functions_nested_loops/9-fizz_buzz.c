@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - If a number is a multiple of three, it's replaced by Fizz. For multiples of five, it's replaced by Buzz. For both, it's replaced by FizzBuzz
+ * main - Replacing with Fizz, Buzz or FizzBuzz
  * Return: 0
  */
 int main(void)
