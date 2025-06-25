@@ -6,20 +6,25 @@
  * @n: parameter for function.
  * Return: Always 0.
  */
- void print_diagonal(int n)
+void print_diagonal(int n)
 {
-	int x;
-	int y;
+	int c, i;
 
-	for (x = 1; x <= n; x++)
+	c = 0;
+
+	while (n > 0)
 	{
-		for (y = 1; y < x; y++)
-        {
+		i = c;
+		while (i > 0)
+		{
 			_putchar(' ');
-			_putchar('\\');
-			_putchar('\n');
-        }
+			i--;
+		}
+		_putchar('\\');
+		_putchar('\n');
+		c++;
+		n--;
 	}
-	if (n <= 0)
+	if (c < 1)
 		_putchar('\n');
 }
