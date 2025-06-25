@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_line - Prints a line of n underscores long.
  * @n: is the integer for the paramaters of the function
